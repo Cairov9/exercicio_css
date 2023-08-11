@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header li {
+    display: inline;
+  }
+  
+  .container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .articles article {
+    flex-basis: calc(30% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .articles h2 {
+    width: 100%;
+  }
+.articles img{
+    width: 400px;
+}
